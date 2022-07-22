@@ -1,0 +1,51 @@
+.CompactCard{
+    display: flex;
+    flex: 1;
+    /* important - circularProgressbar has its own width n height
+    so itz possible that it may take over the height of
+    actual parent div so thats y important is used*/
+    height: 7rem!important;
+    border-radius: 0.7rem;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.CompactCard:hover{
+    box-shadow: none;
+}
+
+/* radialbar */
+.radialBar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.CircularProgressbar{
+    width: 4rem !important;
+    overflow: visible;
+}
+
+.CircularProgressbar-path{
+    stroke: white!important;
+    stroke-width:12px!important ;
+    filter: drop-shadow(2px 4px 6px white);
+}
+
+.CircularProgressbar-trail{
+    display: none;
+}
+
+.CircularProgressbar-text{
+    fill: white!important;
+}
+
+.radialBar>span{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
