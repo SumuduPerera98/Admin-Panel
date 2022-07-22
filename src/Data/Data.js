@@ -11,6 +11,10 @@ import{
     
 } from "@iconscout/react-unicons";
 
+import img1 from '../imgs/img1.png'
+import img2 from '../imgs/img2.png'
+import img3 from '../imgs/img3.png'
+
 //Sidebar data
 export const SidebarData = [
     {
@@ -91,3 +95,25 @@ export const CardsData =[
     },
 
 ];
+
+// recent update card data
+export const UpdatesData=[
+    {
+        img: img1,
+        name:"Andrew Thomas",
+        noti:"has recieved samsung gadget for charging battery",
+        time:"10 minutes ago",
+    },
+    {
+        img: img2,
+        name:"Andrew Thomas",
+        noti:"has recieved samsung gadget for charging battery",
+        time:"30 minutes ago",
+    },
+    {
+        img: img3,
+        name:"Andrew Thomas",
+        noti:"has recieved samsung gadget for charging battery",
+        time:"2 hours ago",
+    },
+]
