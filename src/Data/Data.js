@@ -79,7 +79,7 @@ export const CardsData =[
     {
         title:"Expenses",
         color: {
-            backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
+            backGround: "linear-gradient(180deg, #EEBC65 0%, #EEBC65 100%)",
             boxShadow: "0px 10px 20px 0px #F9D59B",
         },
         barValue: 60,
